@@ -5,3 +5,4 @@ feature 'View hit points' do
     expect(page).to have_content 'Richard: 60HP'
   end
 end
+

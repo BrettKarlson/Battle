@@ -1,4 +1,3 @@
-# in web_helpers.rb
 
 def sign_in_and_play
   visit('/')
