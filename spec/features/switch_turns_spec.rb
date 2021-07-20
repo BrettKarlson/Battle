@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 
 feature 'Switch turns' do
   context 'seeing the current turn' do

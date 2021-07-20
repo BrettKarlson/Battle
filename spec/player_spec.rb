@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'player'
 
 describe Player do
@@ -26,17 +28,9 @@ describe Player do
     end
   end
 
-  describe '#attack' do
-    it 'damages the player' do
-      expect(richard).to receive(:receive_damage)
-      matthew.attack(richard)
-    end
-  end
-
   describe '#receive_damage' do
     it 'reduces the player hit points' do
       expect { matthew.receive_damage }.to change { matthew.hit_points }.by(-10)
     end
   end
- end
- 
+end

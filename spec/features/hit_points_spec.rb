@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 
 feature 'View hit points' do
   scenario 'see Player 2 hit points' do
@@ -10,4 +11,3 @@ feature 'View hit points' do
     expect(page).to have_content 'Matthew: 60HP'
   end
 end
-

@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 
 feature 'Attacking' do
   scenario 'attack Player 2' do
